@@ -5,6 +5,24 @@ Demonstration of Dynamic Interactions using custom event in lightning web compon
 
 This repo contains the sample code for dynamic interactions in Salesforce Lightning web components. There are two components that communicate with each other through custom event and Dynamic Interaction.
 
+# Screenshots
+
+### At intial page load.
+![image](https://user-images.githubusercontent.com/16396279/130033290-e12c9e90-0363-45b5-abd6-b6a3a312fee9.png)
+
+### When Account selected from the list.
+![image](https://user-images.githubusercontent.com/16396279/130033421-0d5a1fc9-2ef1-42b9-b817-68ffe7a01799.png)
+
+# App builder configuration Screenshots
+
+1. Open the app builder and select the component and go to interaction section
+![image](https://user-images.githubusercontent.com/16396279/130033924-35308686-5a35-46b8-8a08-23abf8763087.png)
+
+2. Set the target component public property values using event properties.
+![image](https://user-images.githubusercontent.com/16396279/130034136-74011f3a-7da8-45c7-b4f7-7cb9a063fa6f.png)
+
+3. Save. 
+
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
