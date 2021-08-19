@@ -13,7 +13,7 @@ This repo contains the sample code for dynamic interactions in Salesforce Lightn
 ### When Account selected from the list.
 ![image](https://user-images.githubusercontent.com/16396279/130033421-0d5a1fc9-2ef1-42b9-b817-68ffe7a01799.png)
 
-# App builder configuration Screenshots
+# App builder configuration for Dynamic Interactions Screenshots
 
 1. Open the app builder and select the component and go to interaction section
 ![image](https://user-images.githubusercontent.com/16396279/130033924-35308686-5a35-46b8-8a08-23abf8763087.png)
