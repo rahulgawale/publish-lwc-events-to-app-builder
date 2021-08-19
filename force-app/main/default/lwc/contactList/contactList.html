@@ -1,0 +1,29 @@
+<template>
+    <div class="slds-var-p-around_xx-small slds-theme_default">
+        <div
+            class="slds-var-p-around_xx-small slds-text-body_regular"
+            if:true={wiredContacts.error}
+        >
+            No data
+        </div>
+
+        <div
+            class="slds-var-p-around_xx-small"
+            if:true={wiredContacts.data}
+        >
+            <div class="slds-text-body_regular slds-var-p-around_xx-small">
+                Related Contacts of the selected account: <b>{accountName}</b>
+            </div>
+            <!-- sldsValidatorIgnoreNextLine -->
+            <lightning-datatable
+                key-field="id"
+                data={wiredContacts.data}
+                show-row-number-column
+                hide-checkbox-column
+                columns={columnsList}
+                onrowselection={handleRowSelection}
+            >
+            </lightning-datatable>
+        </div>
+    </div>
+</template>

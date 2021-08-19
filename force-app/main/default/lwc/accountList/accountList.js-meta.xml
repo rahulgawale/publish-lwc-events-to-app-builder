@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>53.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Account List</masterLabel>
+    <targets>
+        <target>lightning__AppPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage">
+            <property name="apiName" type="String" />
+            <property name="listViewApiName" type="String" />
+            <event
+				name="itemselected"
+				label="Item Selected"
+				description="This event fires when an item is selected."
+			>
+                <schema>
+                    {
+                        "type": "object",
+                        "properties": {
+                            "recordId": {
+                                "type": "string",
+                                "title": "Record Id",
+                                "description": "Enter an 18-digit record Id."
+                            },
+                           "accountName": {
+                               "type": "string",
+                               "title": "Acount Name"
+                           }
+                       }
+                    }
+                </schema>
+            </event>
+        </targetConfig>
+    </targetConfigs>
+    <description>Defines an event for an Account List component</description>
+</LightningComponentBundle>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>53.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Contact List</masterLabel>
+    <targets>
+        <target>lightning__AppPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage">
+            <property name="recordId" type="String" label="Account Record Id" />
+            <property name="accountName" type="String" label="Account Name" />
+        </targetConfig>
+    </targetConfigs>
+    <description>Shows related contacts of the account</description>
+</LightningComponentBundle>
