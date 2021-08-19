@@ -5,6 +5,8 @@ Demonstration of Dynamic Interactions using custom event in lightning web compon
 
 This repo contains the sample code for dynamic interactions in Salesforce Lightning web components. There are two components that communicate with each other through custom event and Dynamic Interaction.
 
+I have written a detailed blog post: [Expose LWC events to Lightning App Builder - Dynamic Interactions](https://www.forcetrails.com/2021/08/publish-lwc-events-to-lightning-app-builder.html)
+
 # Screenshots
 
 ### At intial page load.
