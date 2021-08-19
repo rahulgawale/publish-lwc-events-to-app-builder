@@ -8,8 +8,6 @@
     </targets>
     <targetConfigs>
         <targetConfig targets="lightning__AppPage">
-            <property name="apiName" type="String" />
-            <property name="listViewApiName" type="String" />
             <event
 				name="itemselected"
 				label="Item Selected"

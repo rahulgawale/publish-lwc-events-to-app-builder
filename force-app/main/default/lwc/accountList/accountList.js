@@ -17,8 +17,6 @@ export default class AccountList extends LightningElement {
 	wiredAccounts;
 
 	handleRowSelection(event) {
-		console.log("rows ", event.detail.selectedRows);
-
 		const itemSelected = new CustomEvent("itemselected", {
 			detail: {
 				recordId: event.detail.selectedRows[0].Id,
